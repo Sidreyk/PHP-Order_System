@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order System</title>
+</head>
+
+<body>
+    <h1>Welcome to the Ihawan ni Ramon! Here are the prices:</h1>
+
+
+    <ul>
+        <li>Adidas - 10 PHP</li>
+
+
+        <li>Isaw - 15 PHP</li>
+
+
+        <li>Barbeque - 20 PHP</li>
+    </ul>
+
+    <form action="/order_system/OrderSystem.php" method="post">
+        <label for="order">Choose your order:</label>
+        <select name="order">
+            <option value="Adidas">Adidas</option>
+            <option value="Isaw">Isaw</option>
+            <option value="Barbeque">Barbeque</option>
+        </select><br><br>
+        <label for="quantity">Quantity:</label>
+        <input type="text" name="quantity"><br><br>
+        <label for="cash">Cash:</label>
+        <input type="text" name="cash"><br><br>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
